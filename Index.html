@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ShutterMeta - Metadata Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>ShutterMeta</h1>
+
+  <div id="upload-area">
+    <input type="file" id="fileInput" multiple>
+    <input type="text" id="apiKeyInput" placeholder="Enter your Gemini API key">
+    <button id="verifyKeyButton">Verify API Key</button>
+    <div id="verificationStatus"></div>
+    <button id="generateButton">Generate Metadata</button>
+    <button id="downloadCsvButton">Download CSV</button>
+  </div>
+
+  <div id="fileList"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
